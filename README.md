@@ -1,7 +1,7 @@
 # PUSH_SWAP
 ## 🎥 Visual
 
-[![Demo preview](capture.png)](https://github.com/Yetsa1/PUSH_SWAP/raw/master/test_visualizer_push_swap.mp4)
+[![Demo preview](capture.png)](https://vimeo.com/manage/videos/1105178872)
 
 
 ## 🧠 Description
