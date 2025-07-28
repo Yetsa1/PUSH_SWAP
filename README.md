@@ -1,4 +1,5 @@
 # PUSH_SWAP
+[Watch the push_swap](./test_visualizer_push_swap.mp4)
 
 ## 🧠 Description
 
