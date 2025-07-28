@@ -1,6 +1,6 @@
 # PUSH_SWAP
 <video width="640" height="360" controls>
-  <source src="https://github.com/Yetsa1/PUSH_SWAP/master/test_visualizer_push_swap.mp4" type="video/mp4">
+  <source src="https://github.com/Yetsa1/PUSH_SWAP/blob/master/test_visualizer_push_swap.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
