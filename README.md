@@ -1,5 +1,8 @@
 # PUSH_SWAP
-https://github.com/Yetsa1/PUSH_SWAP/issues/1#issue-3270357288
+## 🎥 Visual
+
+[![Demo preview](capture.png)](https://github.com/Yetsa1/PUSH_SWAP/raw/master/test_visualizer_push_swap.mp4)
+
 
 ## 🧠 Description
 
