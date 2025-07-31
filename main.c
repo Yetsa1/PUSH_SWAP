@@ -27,6 +27,21 @@ void	check_args(int argc, char **argv)
 		i++;
 	}
 }
+int	verify_sort(t_stack *a)
+{
+	t_node *current;
+
+	if(!a || !a->top)
+		return (1);
+	current = a->top;
+	while(current->next)
+	{
+		if(current->value > current->next->value)
+			return (0);
+		current = current->next;
+	}
+	return (1);
+}
 /*Chooses which algorithm to apply based on stack size.*/
 void	choose_algorithm(t_stack *a, t_stack *b)
 {
@@ -62,7 +77,7 @@ int	main(int argc, char **argv)
 	check_args(argc, argv);
 	if (!parse_and_create_stack(argc, argv, &a))
 		exit_error();
-	if (count_nodes(&a) < 2)
+	if (count_nodes(&a) < 2 || verify_sort(&a)
 	{
 		free_stack(&a);
 		return (0);
