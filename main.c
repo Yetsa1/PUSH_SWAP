@@ -27,6 +27,7 @@ void	check_args(int argc, char **argv)
 		i++;
 	}
 }
+
 int	verify_sort(t_stack *a)
 {
 	t_node *current;
