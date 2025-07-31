@@ -68,5 +68,6 @@ void	choose_algorithm(t_stack *a, t_stack *b);
 int		count_nodes(t_stack *stack);
 t_node	*new_node(int value);
 void	push_bottom(t_stack *stack, int value);
+int	verify_sort(t_stack *a);
 
 #endif
